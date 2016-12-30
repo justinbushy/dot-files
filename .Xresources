@@ -13,7 +13,7 @@ URxvt.urgentOnBell: True
 URxvt.cursorBlink: False
 URxvt.internalBorder: 4
 
-URxvt.font: xft:Consolas-12:antialias=true:autohinting=true
+URxvt.font: xft:Inconsolata-12:antialias=true:autohinting=true
 URxvt.boldFont: xft:Consolas-9:bold:antialias=true:autohinting=true
 URxvt.letterSpace: -1
 
