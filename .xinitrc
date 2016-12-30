@@ -15,4 +15,6 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 
 # merge in defaults and keymaps
 
+export $TERM=rxvt-256color
+export LANG="en_US.UTF-8"
 exec i3

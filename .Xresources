@@ -13,9 +13,19 @@ URxvt.urgentOnBell: True
 URxvt.cursorBlink: False
 URxvt.internalBorder: 4
 
-URxvt.font: xft:Inconsolata-12:antialias=true:autohinting=true
-URxvt.boldFont: xft:Consolas-9:bold:antialias=true:autohinting=true
-URxvt.letterSpace: -1
+!Xft.dpi: 142
+!Xft.autohint: 0
+!Xft.lcdfilter: lcddefault
+!Xft.hintstyle: hintfull
+!Xft.hinting: 1
+!Xft.antialias: 1
+!Xft.rgba: rgb
+
+URxvt*font: xft:Consolas-11:antialias=true:autohinting=true
+URxvt*boldFont: xft:Consolas-9:bold:antialias=true:autohinting=true
+URxvt*letterSpace: -1
+!URxvt.font: xft:DejaVuSansMono:pixelsize=18
+!URxvt*boldFont: xft:Inconsolata:pixelsize=17:antilalias=true:hinting=true
 
 URxvt.depth: 32
 URxvt.background: [98]#282828
