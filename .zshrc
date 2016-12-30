@@ -4,6 +4,10 @@ export PATH=/home/justin/bin:$PATH
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export TERM=rxvt-256color
+
+#keychain startup
+eval $(keychain --eval --quiet id_rsa /home/justin/.ssh/id_rsa)
+
 alias sl='ls'
 # Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
