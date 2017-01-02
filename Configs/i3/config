@@ -180,7 +180,8 @@ bar {
 	}	
 	position top
 	height 27
-	font pango: Droid Sans Mono 8
+	#font pango: Droid Sans Mono 8
+    font pango: Consolas Sans Mono 9
         status_command i3status
 }
 
