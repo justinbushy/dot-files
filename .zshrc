@@ -9,6 +9,7 @@ export TERM=rxvt-256color
 eval $(keychain --eval --quiet id_rsa /home/justin/.ssh/id_rsa)
 
 alias sl='ls'
+alias clera='clear'
 # Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
 
