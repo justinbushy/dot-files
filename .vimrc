@@ -2,7 +2,10 @@ set t_Co=256
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+set textwidth=79
 set expandtab
+set autoindent
+
 syntax on
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -44,6 +47,8 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'scrooloose/nerdtree'
 
 Plugin 'Valloric/YouCompleteMe'
+
+Plugin 'vim-scripts/indentpython.vim'
 
 colorscheme gruvbox
 set bg=dark
